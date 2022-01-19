@@ -1,0 +1,20 @@
+<?php
+
+
+$friends = array(array('Name' => 'Tisu','email'=>'tshjhdhhdh@gmail.com', 'Reg no'=>12345 ),array('Name' => 'ovi','email'=>'jfflkgjjg@gmail.com','Reg no'=> 54544664 ), array('Name'=> 'jilan','email'=>'djdjsdjs@gmail.com','Reg no'=>56675 ),array('Name'=>'Arifa','email'=>'hdhshdsdhdsd@gmail.com','Reg no'=>64564),array('Name'=>'Taspiya',"email"=>'fhftjgv@gmail.com','Reg no'=>46576576),);
+foreach ($friends as $myallfriends) {
+	foreach ($myallfriends as $key => $value) {
+		echo "$key:$value<br>";
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+?>
